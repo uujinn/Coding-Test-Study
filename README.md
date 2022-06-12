@@ -1,2 +1,8 @@
-# Coding-Test-Study-2022
-혼자 푸는 코딩테스트 'ㅅ'
+
+
+## 사용 언어
+Swift, Python
+
+## 문제
+- 백준: https://github.com/tony9402/baekjoon
+- 프로그래머스: https://programmers.co.kr/learn/challenges
