@@ -13,3 +13,5 @@ def solution(num):
         answer = -1
 
     return answer
+
+print(solution(1))
