@@ -1,9 +1,8 @@
 def solution(dartResult):
     points = {'S': 1, 'D': 2, 'T': 3}
     stack = []
-
+    tmp = ''
     for i in dartResult:
-        tmp = ''
         if i.isnumeric():
             tmp += i
         else:
