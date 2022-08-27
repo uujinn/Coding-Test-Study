@@ -15,3 +15,6 @@ def solution(answers):
             answer[3] += 1
     
     max_value = max(answer)
+
+    
+    return list(filter(lambda x: answer[x] == max_value, range(len(answer))))
