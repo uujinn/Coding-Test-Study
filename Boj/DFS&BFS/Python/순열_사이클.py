@@ -21,18 +21,16 @@ for _ in range(T):
   for i in range(1, N+1):
     # bfs
     q = deque()
-
     if visited[i] == 0:
       q.append(i)
       while q:
         v = q.popleft()
         visited[v] = 1
 
-        for i in range(1, N+1):
-          if visited[i] == 0 and vertex[i][v] == 1:
-            visited[i] = 1
-            q.append(i)
-
+        for j in range(i+1, N+1):
+          if visited[j] == 0 and vertex[j][v] == 1:
+            visited[j] = 1
+            q.append(j)
       answer += 1
     else:
       continue
