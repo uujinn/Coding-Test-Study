@@ -25,9 +25,9 @@ def bfs(v):
   while q:
     point = q.popleft()
     print(point, end = ' ')
-    if visited[point] == 1 and vertex[v][i] == 1:
+    if visited[point] == 1 and vertex[v][point] == 1:
       visited[point] = 0
-      q.append(i)
+      q.append(point)
 
 dfs(v)
 print()
